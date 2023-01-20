@@ -21,6 +21,7 @@ requirements:
     - python =2.7|>=3.2
   run:
     - python =2.7|>=3.2
+    - libunrar
 
 test:
   imports:
