@@ -11,7 +11,7 @@ source:
   sha256: b24447a5b93024be600ef8255668ba23a30f451176577b691559ea1359f7d164
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -21,6 +21,7 @@ requirements:
     - python =2.7|>=3.2
   run:
     - python =2.7|>=3.2
+    - libunrar
 
 test:
   imports:
@@ -42,3 +43,4 @@ about:
 extra:
   recipe-maintainers:
     - melonhead901
+    - sshockwave
